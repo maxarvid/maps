@@ -40,7 +40,7 @@ function ready([json, datapoints]) {
     coordinateStore.set(name, coords)
   })
 
-  console.log(coordinateStore)
+  // console.log(coordinateStore)
 
   projection.fitSize([width, height], countries)
 
@@ -76,7 +76,7 @@ function ready([json, datapoints]) {
     .append('path')
     .attr('class', 'flights')
     .attr('d', d => {
-      console.log(coordinateStore.get(d.iata_code))
+      // console.log(coordinateStore.get(d.iata_code))
       let fromCoords = nyc
       let toCoords = coordinateStore.get(d.iata_code)
 
