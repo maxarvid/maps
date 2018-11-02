@@ -64,7 +64,7 @@ function ready([json, datapoints]) {
     .datum(graticule())
     .attr('d', path)
     .attr('stroke', 'white')
-    .attr('stroke-width', 0.5)
+    .attr('stroke-widt  h', 0.5)
     .lower()
 
   svg
