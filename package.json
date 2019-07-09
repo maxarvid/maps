@@ -37,6 +37,7 @@
     "d3-geo-projection": "^2.7.0",
     "handlebars": "^4.1.2",
     "jest": "^23.6.0",
+    "js-yaml": "^3.13.1",
     "merge": "^1.2.1",
     "node-fetch": "^2.6.0",
     "polylabel": "^1.0.2",
