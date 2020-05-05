@@ -31,11 +31,11 @@
   },
   "dependencies": {
     "@turf/turf": "^5.1.6",
-    "acorn": "^6.1.1",
+    "acorn": "^6.4.1",
     "babel-preset-env": "^1.7.0",
     "d3": "^5.9.2",
     "d3-geo-projection": "^2.7.0",
-    "handlebars": "^4.5.3",
+    "handlebars": "^4.7.6",
     "jest": "^23.6.0",
     "js-yaml": "^3.13.1",
     "lodash": "^4.17.14",
